@@ -1,6 +1,6 @@
 context:
   name: git-pkgs
-  version: "0.21.0"
+  version: "0.22.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/git-pkgs/git-pkgs/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d48505757969fb808e21de80f3dc8d8247e3cfd3f8f89c30bf43fe7a91d5f598
+  sha256: baed53b93bd3bfe4bf97cfcde5ecce4bec841825eea8e4030b51ef543c2a09ef
 
 build:
   number: 0
